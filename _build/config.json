@@ -15,7 +15,7 @@
     "systemSettings" : [
       {
         "key" : "imgattr_pathonly",
-        "value" : "1"
+        "value" : "0"
       }
     ]
   }

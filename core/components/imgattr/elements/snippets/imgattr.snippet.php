@@ -33,7 +33,7 @@ if (!isset($input) || empty($input)) {
 }
 
 /* Prepend image paths with base path */
-$input = parse_url($input, PHP_URL_PATH);
+if ($modx->getOption('imgattr_pathonly')) $input = parse_url($input, PHP_URL_PATH);
 $base_url = $modx->getOption('base_url');
 $base_path = $modx->getOption('base_path');
 if (substr($input, 0, strlen($base_url)) == $base_url) {
