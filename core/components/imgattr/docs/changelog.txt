@@ -1,0 +1,25 @@
+imgattr
+=================================
+2.1.0-pl
+
+* Use pathinfo PHP_URL_PATH only, with system setting for b/c
+
+2.0.1-pl
+
+*Update changelog and readme
+
+2.0.0-pl
+
+* Normalize for base_url (thanks Mike!)
+* Prepend base_path 
+* Add toPlaceholder support
+* General code improvements
+* Moved errors to log
+
+1.0.0-pl1 Initial public release.
+
+* Added 'filenameNoExt' option.
+* Added comments and corrections.
+
+
+1.0.0-beta1 Initial beta release.

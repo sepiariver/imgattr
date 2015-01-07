@@ -1,1 +1,22 @@
-{"name":"imgattr","lowCaseName":"imgattr","description":"MODX output modifier and snippet to retrieve image file attributes","author":"@sepiariver YJ Tso","version":"2.1.0-pl","package":{"elements":{"plugins":[{"name":"PackagePlugin","events":["OnPageNotFound"]}],"snippets":[{"name":"PackageSnippet"}],"chunks":[{"name":"PackageChunk"}],"templates":[{"name":"PackageTemplate"}],"tvs":[{"caption":"MyTV","templates":["PackageTemplate"]}]},"systemSettings":[{"key":"test_key","value":"it works"}]}}
+{
+  "name" : "imgattr",
+  "lowCaseName" : "imgattr",
+  "description" : "MODX output modifier and snippet to retrieve image file attributes",
+  "author" : "@sepiariver YJ Tso",
+  "version" : "2.1.0-pl",
+  "package" : {
+    "elements" : {
+      "snippets" : [
+        {
+          "name" : "imgattr"
+        }
+      ]
+    },
+    "systemSettings" : [
+      {
+        "key" : "imgattr_pathonly",
+        "value" : "1"
+      }
+    ]
+  }
+}
