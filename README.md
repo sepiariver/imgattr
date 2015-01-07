@@ -1,2 +1,2 @@
-# _modxExtraTpl
-Just the basic folder structure
+# imgattr
+MODX output modifier and snippet for retrieving image file attributes
